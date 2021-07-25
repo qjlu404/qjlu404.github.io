@@ -1,7 +1,7 @@
 /* style.css by Quentin J. Upshaw*/
 html 
 {
-	height: 108%;
+	height: 100%;
 	background: linear-gradient(#fff, #fa3);
 	text-shadow: 0 0 3px #999;
 	min-width: 463px;
@@ -9,7 +9,17 @@ html
 body
 {
     margin: auto;
-    width: 464px;
+    width: 463px;
+}
+
+p
+{
+	border: 1px solid black;
+	background-color: #ffe;
+    font-size: larger;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
 }
 h1
 {
@@ -24,25 +34,18 @@ h1
 h4
 {
 	position: relative;
-	bottom: 0px;
-	color: orange;
+	position: bottom;
+	background-color: #ffce9d;
+    color: #ffce9d;
+    font-size: smaller;
 }
 h4:hover
 {
 	color: black;
 }
 
-p
-{
-	border: 1px solid black;
-	background-color: #ffe;
-    font-size: larger;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 5px;
-}
 /*
- tables
+    tables
 */
 table, th, td {
     border: 1px solid #aaa;
@@ -53,7 +56,7 @@ table, th, td {
 }
 
 /*
- links
+    links
 */
 a:link {
   color: #9ef;
@@ -74,4 +77,13 @@ a:visited:hover {
 
 a:active {
   color: blue;
+}
+
+/*
+    Special stuff
+*/
+
+hr
+{
+	border: 10px solid #ffce9d;
 }
