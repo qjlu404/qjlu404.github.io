@@ -38,10 +38,12 @@ h4
 	background-color: #ffce9d;
     color: #ffce9d;
     font-size: smaller;
+    text-shadow: 0 0;
 }
 h4:hover
 {
 	color: black;
+	text-shadow: 0 0 5px black;
 }
 
 /*
