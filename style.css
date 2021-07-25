@@ -1,9 +1,9 @@
 /* style.css by Quentin J. Upshaw*/
 html 
 {
-	height: 105%;
+	height: 108%;
 	background: linear-gradient(#fff, #fa3);
-	text-shadow: 0 0 2px #999;
+	text-shadow: 0 0 3px #999;
 	min-width: 463px;
 }
 body
@@ -41,7 +41,6 @@ p
     padding: 10px;
     border-radius: 5px;
 }
-
 /*
  tables
 */
