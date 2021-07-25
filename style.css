@@ -1,0 +1,63 @@
+/* style.css by Quentin J. Upshaw*/
+html 
+{
+	height: 100%;
+	background: linear-gradient(#fff, #fa3);
+	text-shadow: 0 0 2px #999;
+	min-width: 280px;
+}
+
+.header 
+{
+    background-color: #ffe;
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#mainp
+{
+	border: 1px solid black;
+	background-color: #ffe;
+    color: #0a0;
+    font-size: larger;
+}
+
+.footer
+{
+	color: white;
+	background-color: black;
+}
+
+h1 
+{
+	color: #0d0;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+/* unvisited link */
+a:link {
+  color: #9ef;
+}
+
+/* visited link */
+a:visited {
+  color: #58f;
+}
+
+a:hover
+{
+	text-shadow: 0 0 5px #5ff;
+}
+
+a:visited:hover {
+  text-shadow: 0 0 5px #0af;
+}
+
+a:active {
+  color: blue;
+}
