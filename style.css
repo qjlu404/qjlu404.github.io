@@ -4,6 +4,7 @@ html
 	background: linear-gradient(#fff, #fa3);
 	text-shadow: 0 0 3px #999;
 	min-width: 463px;
+	zoom: 1.5
 }
 body
 {
@@ -42,7 +43,7 @@ h4
 h4:hover
 {
 	color: black;
-	text-shadow: 0 0 5px black;
+	text-shadow: 0 0 10px black;
 }
 
 /*
@@ -60,7 +61,7 @@ table, th, td {
     links
 */
 a:link {
-  color: #9ef;
+  color: #0aa;
 }
 
 a:visited {
