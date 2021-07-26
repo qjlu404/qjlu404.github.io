@@ -1,7 +1,6 @@
 /* style.css by Quentin J. Upshaw*/
 html 
 {
-	height: 135%;
 	background: linear-gradient(#fff, #fa3);
 	text-shadow: 0 0 3px #999;
 	min-width: 463px;
