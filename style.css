@@ -1,10 +1,12 @@
 /* style.css by Quentin J. Upshaw*/
 html 
 {
-	background: linear-gradient(#fff, #fa3);
-	text-shadow: 0 0 3px #999;
+	background-color: #191716;
+	color: #84596B;
+	border: #191716;
+	text-shadow: 0 0 3px #7b7b7b;
 	min-width: 463px;
-	zoom: 1.5
+	zoom: 1.5;
 }
 body
 {
@@ -15,30 +17,30 @@ body
 p
 {
 	border: 1px solid black;
-	background-color: #ffe;
     font-size: larger;
     margin: 20px;
     padding: 10px;
     border-radius: 5px;
+    background-color: #440D0F;
 }
 h1
 {
-    background-color: #ffe;
     text-align: center;
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
 	border-radius: 25px;
+	background-color: #603A40;
+	color: #AF9BB6;
 }
 
 h4
 {
 	position: relative;
 	position: bottom;
-	background-color: #ffce9d;
-    color: #ffce9d;
     font-size: smaller;
     text-shadow: 0 0;
+    color: #191716;
 }
 h4:hover
 {
@@ -50,11 +52,10 @@ h4:hover
     tables
 */
 table, th, td {
-    border: 1px solid #aaa;
+	background-color: #440D0F;
+    border: 1px solid #603A40;
     padding: 10px;
-    background-color: #ffe;
-    color: black;
-	border-radius: 5px;
+	border-radius: 3px;
 }
 
 /*
@@ -87,5 +88,4 @@ a:active {
 
 hr
 {
-	border: 10px solid #ffce9d;
 }
