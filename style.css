@@ -1,12 +1,18 @@
 /* style.css by Quentin J. Upshaw*/
+/*
+    fonts 
+*/
+/**/
 html 
 {
+
 	background-color: #191716;
 	color: #84596B;
 	border: #191716;
 	text-shadow: 0 0 3px #7b7b7b;
 	min-width: 463px;
 	zoom: 1.5;
+	font-family: 'Advent Pro', sans-serif;
 }
 body
 {
@@ -16,6 +22,7 @@ body
 
 p
 {
+    
 	border: 1px solid black;
     font-size: larger;
     margin: 20px;
@@ -23,29 +30,18 @@ p
     border-radius: 5px;
     background-color: #440D0F;
 }
+
 h1
 {
+	
+	font-family: 'Oswald', sans-serif;
     text-align: center;
     border: 2px solid black;
     margin: 20px;
-    padding: 20px;
-	border-radius: 25px;
+    padding: 2px;
+	border-radius: 30px;
 	background-color: #603A40;
 	color: #AF9BB6;
-}
-
-h4
-{
-	position: relative;
-	position: bottom;
-    font-size: smaller;
-    text-shadow: 0 0;
-    color: #191716;
-}
-h4:hover
-{
-	color: black;
-	text-shadow: 0 0 10px black;
 }
 
 /*
