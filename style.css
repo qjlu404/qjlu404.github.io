@@ -30,7 +30,10 @@ p
     border-radius: 5px;
     background-color: #440D0F;
 }
-
+#bottomp
+{
+  margin-bottom: 50px;
+}
 h1
 {
 	
@@ -47,12 +50,23 @@ h1
 /*
     tables
 */
+.onhover
+{transition: transform 250ms;}
+.onhover:hover
+{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
 table, th, td {
 	background-color: #440D0F;
     border: 1px solid #603A40;
     padding: 10px;
 	border-radius: 3px;
 }
+table{margin-top: 50px;}
 
 /*
     links
